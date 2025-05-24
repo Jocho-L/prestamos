@@ -1,5 +1,7 @@
 USE prestamos;
 
+SELECT * FROM contratos
+
 -- ¿Cuántos pagos tiene pendiente Jhon?
 SELECT COUNT(*) FROM pagos WHERE idcontrato = 1 AND fechapago IS NULL;
 

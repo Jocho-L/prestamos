@@ -6,6 +6,8 @@ include  '../partials/header.php';
 <div class="col-md-9"> <!-- Contenido principal -->
   <main class="container mt-4"> <!-- Tabla Beneficiarios -->
     <h1 class="text-center mb-4">Beneficiarios</h1>
+        <a href="beneficiarios/registrar.php">asd</a>
+
 
     <?php if (empty($beneficiarios)): ?>
       <p>No se encontraron beneficiarios.</p>
